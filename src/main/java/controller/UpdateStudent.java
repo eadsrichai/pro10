@@ -45,7 +45,7 @@ public class UpdateStudent extends HttpServlet {
 		StudentDAO stuDAO = new StudentDAO();
 		stuDAO.updateStudent(s);
 		stuDAO.closeConnection();
-		response.sendRedirect("/project10");
+		response.sendRedirect("/pro10");
 	}
 
 	/**

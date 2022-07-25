@@ -48,7 +48,7 @@ public class InsertStudent extends HttpServlet {
 		StudentDAO stuDAO = new StudentDAO();
 		stuDAO.createStudent(s);
 		stuDAO.closeConnection();
-		response.sendRedirect("/project10");
+		response.sendRedirect("/pro10");
 		//request.getRequestDispatcher("TestDb").forward(request, response);
 	
 	}

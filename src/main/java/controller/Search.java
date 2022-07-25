@@ -39,9 +39,9 @@ public class Search extends HttpServlet {
 			request.setAttribute("student", s);
 			request.getRequestDispatcher("index.jsp").forward(request, response);
 		    }
-		    response.sendRedirect("/project10/");
+		    response.sendRedirect("/pro10/");
 		}else {
-			response.sendRedirect("/project10/");
+			response.sendRedirect("/pro10/");
 			//request.getRequestDispatcher("TestDb").forward(request, response);
 		}
 	}
