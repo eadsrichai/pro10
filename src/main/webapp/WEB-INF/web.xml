@@ -1,0 +1,80 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	<servlet>
+		<servlet-name>TestDb</servlet-name>
+		<display-name>TestDb</display-name>
+		<description></description>
+		<servlet-class>controller.TestDb</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>InsertStudent</servlet-name>
+		<display-name>InsertStudent</display-name>
+		<description></description>
+		<servlet-class>controller.InsertStudent</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>CreatStudent</servlet-name>
+		<display-name>CreatStudent</display-name>
+		<description></description>
+		<servlet-class>controller.CreatStudent</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Delete</servlet-name>
+		<display-name>Delete</display-name>
+		<description></description>
+		<servlet-class>controller.Delete</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Update</servlet-name>
+		<display-name>Update</display-name>
+		<description></description>
+		<servlet-class>controller.Update</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>UpdateStudent</servlet-name>
+		<display-name>UpdateStudent</display-name>
+		<description></description>
+		<servlet-class>controller.UpdateStudent</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Search</servlet-name>
+		<display-name>Search</display-name>
+		<description></description>
+		<servlet-class>controller.Search</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TestDb</servlet-name>
+		<url-pattern>/TestDb</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>InsertStudent</servlet-name>
+		<url-pattern>/InsertStudent</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CreatStudent</servlet-name>
+		<url-pattern>/Creat</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Delete</servlet-name>
+		<url-pattern>/Delete</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Update</servlet-name>
+		<url-pattern>/Update</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdateStudent</servlet-name>
+		<url-pattern>/UpdateStudent</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Search</servlet-name>
+		<url-pattern>/Search</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>TestDb</welcome-file>
+	</welcome-file-list>
+</web-app>

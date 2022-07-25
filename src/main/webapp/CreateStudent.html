@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet"
+	href="webjars/bootstrap/5.1.3/css/bootstrap.min.css">
+<title>เพิ่มข้อมูลนักเรียน</title>
+</head>
+<body>
+<div class="container">
+<div> 
+	<p class="fs-1 bg bg-primary text-white mt-3 p-3">ระบบฐานข้อมูลนักศึกษา</p>
+</div>
+	<form action="InsertStudent" method="get">
+		<table>
+			<tr>
+				<td>รหัสนักศึกษา</td><td><input type="text" name="id" /></td>
+			</tr>
+			<tr>
+				<td>คำนำหน้า</td>
+				<td>
+					<select name ="pre">
+  						<option value="นาย" selected>นาย</option>
+  						<option value="นางสาว">นางสาว</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>ชื่อนักศึกษา</td><td><input type="text" name="fname" /></td>
+			</tr>
+			<tr>
+				<td>นามสกุล</td><td><input type="text" name="lname" /></td>
+			</tr>
+			
+			<tr>
+				<td>อายุ</td><td><input type="text" name="age" /></td>
+			</tr>
+			<tr>
+				<td>แผนกวิชา</td>
+				<td>
+					<select name ="id_dep">
+  						<option value="01" selected>ช่างยนต์</option>
+  						<option value="02">ช่างกลโรงงาน</option>
+  						<option value="08">คอมพิวเตอร์ธุรกิจ</option>
+  						<option value="09">เทคโนโลยีสารสนเทศ</option>
+					</select>
+				
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="Save" name="submit"/></td>
+			</tr>
+		</table>
+	</form>
+</div>
+</body>
+</html>
